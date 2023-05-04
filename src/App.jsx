@@ -28,12 +28,12 @@ function App() {
                     </ul>
                 </nav>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/login" element={<Login setUser={setUser}/>}/>
-                    <Route path="/signup" element={<Signup/>}/>
-                    <Route path="/dbdump" element={<DBDump/>}/>
-                    <Route path="/messagebox" element={<MessageBox user={user}/>}/>
-                    <Route path="/sendmessage" element={<SendMessage user={user}/>}/>
+                    <Route path="coursera-chat-react-app/" element={<Home/>}/>
+                    <Route path="coursera-chat-react-app/login" element={<Login setUser={setUser}/>}/>
+                    <Route path="coursera-chat-react-app/signup" element={<Signup/>}/>
+                    <Route path="coursera-chat-react-app/dbdump" element={<DBDump/>}/>
+                    <Route path="coursera-chat-react-app/messagebox" element={<MessageBox user={user}/>}/>
+                    <Route path="coursera-chat-react-app/sendmessage" element={<SendMessage user={user}/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
