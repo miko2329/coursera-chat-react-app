@@ -1,0 +1,29 @@
+.App{
+  max-width: 1420px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.navbarList{
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.user{
+  margin-left: auto;
+}
+
+.navbarItem a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbarItem a:hover{
+  color: #8054af;
+}

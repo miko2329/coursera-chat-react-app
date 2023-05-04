@@ -1,0 +1,37 @@
+.sendRoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 30px;
+}
+
+.emailField{
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: #8054af;
+}
+
+.textArea{
+    width: 800px;
+    height: 300px;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: #8054af;
+}
+
+.sendButton{
+    padding: 10px;
+    background-color: #8054af;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.result{
+    color: white;
+    font-size: 26px;
+}

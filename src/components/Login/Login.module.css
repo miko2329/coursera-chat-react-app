@@ -1,0 +1,35 @@
+.loginRoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 30px;
+}
+
+.loginField{
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: #8054af;
+}
+
+.passwordField{
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: #8054af;
+}
+
+.loginButton{
+    padding: 10px;
+    background-color: #8054af;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.result{
+    color: white;
+    font-size: 26px;
+}

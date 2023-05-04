@@ -1,0 +1,24 @@
+.dbDumpRoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 5px;
+}
+
+.dbDumpContainer{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8054af;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    padding: 15px 10px;
+}
+
+.email{
+    font-weight: bold;
+}

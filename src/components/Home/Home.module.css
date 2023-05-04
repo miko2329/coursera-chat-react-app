@@ -1,0 +1,16 @@
+.homeRoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.link{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #8054af;
+    text-decoration: none;
+}
