@@ -15,7 +15,7 @@ function App() {
 
     return (
         <div className="App">
-            <BrowserRouter>
+            <BrowserRouter basename="/coursera-chat-react-app">
                 <nav className="navbar">
                     <ul className="navbarList">
                         <li className="navbarItem"><Link to="/">Home</Link></li>
